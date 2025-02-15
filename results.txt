@@ -1,0 +1,266 @@
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=10]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 3.336 us, StdErr = 0.017 us (0.52%), N = 21, StdDev = 0.079 us
+Min = 3.228 us, Q1 = 3.251 us, Median = 3.345 us, Q3 = 3.376 us, Max = 3.477 us
+IQR = 0.125 us, LowerFence = 3.063 us, UpperFence = 3.563 us
+ConfidenceInterval = [3.270 us; 3.402 us] (CI 99.9%), Margin = 0.066 us (1.99% of Mean)
+Skewness = 0.17, Kurtosis = 1.76, MValue = 2
+-------------------- Histogram --------------------
+[3.220 us ; 3.306 us) | @@@@@@@
+[3.306 us ; 3.381 us) | @@@@@@@@@
+[3.381 us ; 3.484 us) | @@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=10]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 3.373 us, StdErr = 0.018 us (0.54%), N = 29, StdDev = 0.097 us
+Min = 3.232 us, Q1 = 3.267 us, Median = 3.404 us, Q3 = 3.455 us, Max = 3.520 us
+IQR = 0.188 us, LowerFence = 2.985 us, UpperFence = 3.737 us
+ConfidenceInterval = [3.306 us; 3.439 us] (CI 99.9%), Margin = 0.066 us (1.97% of Mean)
+Skewness = -0.2, Kurtosis = 1.4, MValue = 2.92
+-------------------- Histogram --------------------
+[3.218 us ; 3.301 us) | @@@@@@@@@@
+[3.301 us ; 3.400 us) | @@@@
+[3.400 us ; 3.483 us) | @@@@@@@@@@@@@
+[3.483 us ; 3.561 us) | @@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=20]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 23.457 us, StdErr = 0.078 us (0.33%), N = 15, StdDev = 0.303 us
+Min = 22.934 us, Q1 = 23.247 us, Median = 23.454 us, Q3 = 23.697 us, Max = 23.887 us
+IQR = 0.450 us, LowerFence = 22.571 us, UpperFence = 24.373 us
+ConfidenceInterval = [23.133 us; 23.781 us] (CI 99.9%), Margin = 0.324 us (1.38% of Mean)
+Skewness = -0.18, Kurtosis = 1.72, MValue = 2
+-------------------- Histogram --------------------
+[22.773 us ; 23.974 us) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=20]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 23.944 us, StdErr = 0.096 us (0.40%), N = 15, StdDev = 0.371 us
+Min = 23.457 us, Q1 = 23.617 us, Median = 23.799 us, Q3 = 24.252 us, Max = 24.522 us
+IQR = 0.635 us, LowerFence = 22.665 us, UpperFence = 25.205 us
+ConfidenceInterval = [23.548 us; 24.341 us] (CI 99.9%), Margin = 0.397 us (1.66% of Mean)
+Skewness = 0.21, Kurtosis = 1.35, MValue = 2
+-------------------- Histogram --------------------
+[23.391 us ; 24.590 us) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=40]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 162.723 us, StdErr = 0.703 us (0.43%), N = 15, StdDev = 2.723 us
+Min = 159.999 us, Q1 = 160.260 us, Median = 161.735 us, Q3 = 165.009 us, Max = 168.081 us
+IQR = 4.749 us, LowerFence = 153.137 us, UpperFence = 172.132 us
+ConfidenceInterval = [159.812 us; 165.635 us] (CI 99.9%), Margin = 2.911 us (1.79% of Mean)
+Skewness = 0.49, Kurtosis = 1.69, MValue = 2
+-------------------- Histogram --------------------
+[159.259 us ; 168.949 us) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=40]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 164.839 us, StdErr = 0.753 us (0.46%), N = 15, StdDev = 2.918 us
+Min = 161.536 us, Q1 = 162.152 us, Median = 164.037 us, Q3 = 166.748 us, Max = 171.331 us
+IQR = 4.596 us, LowerFence = 155.257 us, UpperFence = 173.642 us
+ConfidenceInterval = [161.720 us; 167.959 us] (CI 99.9%), Margin = 3.119 us (1.89% of Mean)
+Skewness = 0.55, Kurtosis = 2.18, MValue = 2
+-------------------- Histogram --------------------
+[161.159 us ; 165.119 us) | @@@@@@@@
+[165.119 us ; 172.884 us) | @@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=80]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 1.219 ms, StdErr = 0.003 ms (0.24%), N = 13, StdDev = 0.011 ms
+Min = 1.202 ms, Q1 = 1.213 ms, Median = 1.219 ms, Q3 = 1.224 ms, Max = 1.238 ms
+IQR = 0.011 ms, LowerFence = 1.195 ms, UpperFence = 1.241 ms
+ConfidenceInterval = [1.206 ms; 1.231 ms] (CI 99.9%), Margin = 0.013 ms (1.04% of Mean)
+Skewness = 0.21, Kurtosis = 2.07, MValue = 2
+-------------------- Histogram --------------------
+[1.196 ms ; 1.244 ms) | @@@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=80]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 1.244 ms, StdErr = 0.006 ms (0.47%), N = 15, StdDev = 0.023 ms
+Min = 1.204 ms, Q1 = 1.230 ms, Median = 1.245 ms, Q3 = 1.260 ms, Max = 1.281 ms
+IQR = 0.030 ms, LowerFence = 1.184 ms, UpperFence = 1.306 ms
+ConfidenceInterval = [1.220 ms; 1.268 ms] (CI 99.9%), Margin = 0.024 ms (1.95% of Mean)
+Skewness = -0.34, Kurtosis = 2.01, MValue = 2
+-------------------- Histogram --------------------
+[1.201 ms ; 1.241 ms) | @@@@@
+[1.241 ms ; 1.293 ms) | @@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=120]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 4.121 ms, StdErr = 0.018 ms (0.43%), N = 15, StdDev = 0.069 ms
+Min = 4.032 ms, Q1 = 4.063 ms, Median = 4.109 ms, Q3 = 4.166 ms, Max = 4.254 ms
+IQR = 0.103 ms, LowerFence = 3.908 ms, UpperFence = 4.320 ms
+ConfidenceInterval = [4.047 ms; 4.195 ms] (CI 99.9%), Margin = 0.074 ms (1.80% of Mean)
+Skewness = 0.35, Kurtosis = 1.75, MValue = 2
+-------------------- Histogram --------------------
+[3.995 ms ; 4.115 ms) | @@@@@@@@
+[4.115 ms ; 4.290 ms) | @@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=120]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 4.073 ms, StdErr = 0.019 ms (0.47%), N = 16, StdDev = 0.077 ms
+Min = 3.978 ms, Q1 = 4.017 ms, Median = 4.055 ms, Q3 = 4.144 ms, Max = 4.200 ms
+IQR = 0.127 ms, LowerFence = 3.827 ms, UpperFence = 4.334 ms
+ConfidenceInterval = [3.995 ms; 4.151 ms] (CI 99.9%), Margin = 0.078 ms (1.92% of Mean)
+Skewness = 0.27, Kurtosis = 1.54, MValue = 2
+-------------------- Histogram --------------------
+[3.969 ms ; 4.213 ms) | @@@@@@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=240]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 32.745 ms, StdErr = 0.139 ms (0.43%), N = 15, StdDev = 0.539 ms
+Min = 31.869 ms, Q1 = 32.294 ms, Median = 32.779 ms, Q3 = 33.119 ms, Max = 33.749 ms
+IQR = 0.825 ms, LowerFence = 31.057 ms, UpperFence = 34.356 ms
+ConfidenceInterval = [32.169 ms; 33.322 ms] (CI 99.9%), Margin = 0.576 ms (1.76% of Mean)
+Skewness = -0.02, Kurtosis = 1.86, MValue = 2
+-------------------- Histogram --------------------
+[31.822 ms ; 32.704 ms) | @@@@@@
+[32.704 ms ; 34.036 ms) | @@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=240]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 28.844 ms, StdErr = 0.053 ms (0.18%), N = 13, StdDev = 0.192 ms
+Min = 28.461 ms, Q1 = 28.805 ms, Median = 28.892 ms, Q3 = 28.965 ms, Max = 29.096 ms
+IQR = 0.160 ms, LowerFence = 28.564 ms, UpperFence = 29.206 ms
+ConfidenceInterval = [28.614 ms; 29.074 ms] (CI 99.9%), Margin = 0.230 ms (0.80% of Mean)
+Skewness = -0.74, Kurtosis = 2.25, MValue = 2
+-------------------- Histogram --------------------
+[28.354 ms ; 29.203 ms) | @@@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=480]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 275.337 ms, StdErr = 1.425 ms (0.52%), N = 23, StdDev = 6.835 ms
+Min = 265.803 ms, Q1 = 269.269 ms, Median = 276.606 ms, Q3 = 280.869 ms, Max = 291.875 ms
+IQR = 11.600 ms, LowerFence = 251.868 ms, UpperFence = 298.270 ms
+ConfidenceInterval = [269.933 ms; 280.741 ms] (CI 99.9%), Margin = 5.404 ms (1.96% of Mean)
+Skewness = 0.32, Kurtosis = 2.3, MValue = 2.15
+-------------------- Histogram --------------------
+[265.266 ms ; 271.575 ms) | @@@@@@@@@
+[271.575 ms ; 282.422 ms) | @@@@@@@@@@@@@
+[282.422 ms ; 288.721 ms) |
+[288.721 ms ; 295.029 ms) | @
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=480]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 203.410 ms, StdErr = 0.912 ms (0.45%), N = 15, StdDev = 3.531 ms
+Min = 198.071 ms, Q1 = 201.095 ms, Median = 202.813 ms, Q3 = 206.489 ms, Max = 209.474 ms
+IQR = 5.394 ms, LowerFence = 193.004 ms, UpperFence = 214.580 ms
+ConfidenceInterval = [199.635 ms; 207.185 ms] (CI 99.9%), Margin = 3.775 ms (1.86% of Mean)
+Skewness = 0.18, Kurtosis = 1.7, MValue = 2
+-------------------- Histogram --------------------
+[196.192 ms ; 203.345 ms) | @@@@@@@@@
+[203.345 ms ; 209.718 ms) | @@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=960]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 2.472 s, StdErr = 0.008 s (0.33%), N = 15, StdDev = 0.032 s
+Min = 2.403 s, Q1 = 2.457 s, Median = 2.474 s, Q3 = 2.490 s, Max = 2.520 s
+IQR = 0.033 s, LowerFence = 2.407 s, UpperFence = 2.539 s
+ConfidenceInterval = [2.438 s; 2.506 s] (CI 99.9%), Margin = 0.034 s (1.37% of Mean)
+Skewness = -0.36, Kurtosis = 2.46, MValue = 2
+-------------------- Histogram --------------------
+[2.386 s ; 2.446 s) | @@@
+[2.446 s ; 2.536 s) | @@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=960]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 1.416 s, StdErr = 0.003 s (0.24%), N = 15, StdDev = 0.013 s
+Min = 1.393 s, Q1 = 1.407 s, Median = 1.415 s, Q3 = 1.421 s, Max = 1.441 s
+IQR = 0.014 s, LowerFence = 1.386 s, UpperFence = 1.442 s
+ConfidenceInterval = [1.402 s; 1.430 s] (CI 99.9%), Margin = 0.014 s (0.99% of Mean)
+Skewness = 0.39, Kurtosis = 2.31, MValue = 2
+-------------------- Histogram --------------------
+[1.386 s ; 1.448 s) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Naive: DefaultJob [MatrixSize=1920]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 32.459 s, StdErr = 0.038 s (0.12%), N = 15, StdDev = 0.149 s
+Min = 32.261 s, Q1 = 32.361 s, Median = 32.436 s, Q3 = 32.519 s, Max = 32.749 s
+IQR = 0.158 s, LowerFence = 32.125 s, UpperFence = 32.756 s
+ConfidenceInterval = [32.299 s; 32.618 s] (CI 99.9%), Margin = 0.159 s (0.49% of Mean)
+Skewness = 0.62, Kurtosis = 2.1, MValue = 2
+-------------------- Histogram --------------------
+[32.182 s ; 32.828 s) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+MatrixMultiplicationCpuOptimizationBenchmark.Strassen: DefaultJob [MatrixSize=1920]
+Runtime = .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 9.966 s, StdErr = 0.014 s (0.14%), N = 14, StdDev = 0.051 s
+Min = 9.897 s, Q1 = 9.935 s, Median = 9.955 s, Q3 = 9.985 s, Max = 10.078 s
+IQR = 0.050 s, LowerFence = 9.859 s, UpperFence = 10.061 s
+ConfidenceInterval = [9.909 s; 10.023 s] (CI 99.9%), Margin = 0.057 s (0.57% of Mean)
+Skewness = 0.73, Kurtosis = 2.52, MValue = 2
+-------------------- Histogram --------------------
+[9.870 s ; 10.105 s) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet v0.14.0, Windows 11 (10.0.22631.4890/23H2/2023Update/SunValley3)
+11th Gen Intel Core i7-1185G7 3.00GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK 8.0.101
+  [Host]     : .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+  DefaultJob : .NET 8.0.1 (8.0.123.58001), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+
+
+| Method   | MatrixSize | Mean              | Error           | StdDev          |
+|--------- |----------- |------------------:|----------------:|----------------:|
+| Naive    | 10         |          3.336 us |       0.0663 us |       0.0789 us |
+| Strassen | 10         |          3.373 us |       0.0663 us |       0.0972 us |
+| Naive    | 20         |         23.457 us |       0.3242 us |       0.3032 us |
+| Strassen | 20         |         23.944 us |       0.3967 us |       0.3711 us |
+| Naive    | 40         |        162.723 us |       2.9111 us |       2.7230 us |
+| Strassen | 40         |        164.839 us |       3.1193 us |       2.9178 us |
+| Naive    | 80         |      1,218.656 us |      12.7192 us |      10.6211 us |
+| Strassen | 80         |      1,243.902 us |      24.2349 us |      22.6693 us |
+| Naive    | 120        |      4,120.830 us |      74.0182 us |      69.2367 us |
+| Strassen | 120        |      4,072.908 us |      78.2943 us |      76.8955 us |
+| Naive    | 240        |     32,745.455 us |     576.4026 us |     539.1673 us |
+| Strassen | 240        |     28,843.873 us |     229.9949 us |     192.0562 us |
+| Naive    | 480        |    275,337.263 us |   5,404.2055 us |   6,834.5901 us |
+| Strassen | 480        |    203,409.971 us |   3,774.9287 us |   3,531.0707 us |
+| Naive    | 960        |  2,471,692.653 us |  33,818.0064 us |  31,633.3842 us |
+| Strassen | 960        |  1,415,541.727 us |  13,962.1043 us |  13,060.1610 us |
+| Naive    | 1920       | 32,458,611.907 us | 159,195.1752 us | 148,911.2657 us |
+| Strassen | 1920       |  9,965,815.793 us |  57,103.8704 us |  50,621.0937 us |
+
+// * Warnings *
+MultimodalDistribution
+  MatrixMultiplicationCpuOptimizationBenchmark.Strassen: Default -> It seems that the distribution can have several modes (mValue = 2.92)
+
+// * Hints *
+Outliers
+  MatrixMultiplicationCpuOptimizationBenchmark.Naive: Default    -> 2 outliers were removed (1.26 ms, 1.26 ms)
+  MatrixMultiplicationCpuOptimizationBenchmark.Strassen: Default -> 2 outliers were removed, 4 outliers were detected (28.46 ms, 28.52 ms, 29.89 ms, 29.94 ms)
+  MatrixMultiplicationCpuOptimizationBenchmark.Naive: Default    -> 1 outlier  was  detected (2.40 s)
+  MatrixMultiplicationCpuOptimizationBenchmark.Strassen: Default -> 1 outlier  was  removed (10.23 s)
+
+// * Legends *
+  MatrixSize : Value of the 'MatrixSize' parameter
+  Mean       : Arithmetic mean of all measurements
+  Error      : Half of 99.9% confidence interval
+  StdDev     : Standard deviation of all measurements
+  1 us       : 1 Microsecond (0.000001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:24:18 (1458.09 sec), executed benchmarks: 18
+
+Global total time: 00:24:27 (1467.49 sec), executed benchmarks: 18
+// * Artifacts cleanup *
+Artifacts cleanup is finished

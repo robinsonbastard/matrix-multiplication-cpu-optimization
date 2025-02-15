@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matrix-multiplication-cpu-optimization", "matrix-multiplication-cpu-optimization\matrix-multiplication-cpu-optimization.csproj", "{D9BC7DB3-3025-494D-93DD-039A211179F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{2C730B1E-A15B-490F-8304-D602048F57D2}"
+	ProjectSection(SolutionItems) = preProject
+		..\results.txt = ..\results.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9BC7DB3-3025-494D-93DD-039A211179F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BC7DB3-3025-494D-93DD-039A211179F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BC7DB3-3025-494D-93DD-039A211179F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BC7DB3-3025-494D-93DD-039A211179F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
